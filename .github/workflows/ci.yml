@@ -26,5 +26,5 @@ jobs:
 
     - name: Executar Testes com Pytest
       run: |
-        pytest
+        pytest techflow-logistics/tests/
         
