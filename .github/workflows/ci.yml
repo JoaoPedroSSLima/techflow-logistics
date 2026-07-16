@@ -25,6 +25,6 @@ jobs:
         pip install -r requirements.txt
 
     - name: Executar Testes com Pytest
-      run: |
-        pytest techflow-logistics/tests/
+      run: |        
+         ppytest tests/
         
